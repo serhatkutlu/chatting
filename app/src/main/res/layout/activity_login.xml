@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/login_mail"
+        android:layout_marginTop="250dp"
+        android:hint="Email"
+        android:gravity="center"
+        android:background="@drawable/login_background"
+        android:padding="6dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/login_password"
+        android:layout_below="@+id/login_mail"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:background="@drawable/login_background"
+        android:padding="6dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/login_loginButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+    <Button
+        android:id="@+id/login_signupButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+
+
+
+
+
+</RelativeLayout>
