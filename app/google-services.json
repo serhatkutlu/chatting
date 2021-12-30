@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1099091864273",
+    "project_id": "chat-5ba3f",
+    "storage_bucket": "chat-5ba3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099091864273:android:9a51510ecc53f15de473f0",
+        "android_client_info": {
+          "package_name": "com.msk.chatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099091864273-96t1bqqnd2ihim4na35rvln685k0h2vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAluCUCPynlLsRoh2m7puZBniwD38pxO9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099091864273-96t1bqqnd2ihim4na35rvln685k0h2vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
