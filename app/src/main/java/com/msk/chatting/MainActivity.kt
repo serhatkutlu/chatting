@@ -29,7 +29,7 @@ lateinit var mDbRef:DatabaseReference
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        val toolbar =Toolbar
         setSupportActionBar(toolbar)
 
 
@@ -37,7 +37,7 @@ lateinit var mDbRef:DatabaseReference
         mDbRef= FirebaseDatabase.getInstance("https://chat-5ba3f-default-rtdb.europe-west1.firebasedatabase.app").getReference()
 
         userlist= arrayListOf()
-        adapter=recyclerAdapter(this,userlist)
+        adapter=recyclerAdapter(userlist)
         Recycler_View.adapter=adapter
         Recycler_View.layoutManager=LinearLayoutManager(this)
 
